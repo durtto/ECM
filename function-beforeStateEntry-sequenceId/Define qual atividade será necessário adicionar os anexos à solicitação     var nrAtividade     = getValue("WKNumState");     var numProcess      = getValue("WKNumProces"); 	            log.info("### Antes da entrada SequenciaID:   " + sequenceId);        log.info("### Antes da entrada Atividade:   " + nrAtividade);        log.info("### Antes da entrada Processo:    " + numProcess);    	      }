@@ -1,0 +1,13 @@
+function beforeStateEntry(sequenceId) {
+	//Define qual atividade será necessário adicionar os anexos à solicitação
+    var nrAtividade     = getValue("WKNumState");
+    var numProcess      = getValue("WKNumProces");
+	
+   
+       log.info("### Antes da entrada SequenciaID:   " + sequenceId);
+       log.info("### Antes da entrada Atividade:   " + nrAtividade);
+       log.info("### Antes da entrada Processo:    " + numProcess);
+   	 
+
+  
+}
